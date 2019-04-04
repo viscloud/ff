@@ -1,7 +1,7 @@
 
 ## Building
 
-FilterForward requires Caffe and Tensorflow. Install them using the instructions in their respective documentation.
+FilterForward requires [Caffe](https://github.com/BVLC/caffe) (we use [Intel Caffe](https://github.com/intel/caffe) for our evaluation) and [Tensorflow](https://github.com/tensorflow/tensorflow). Install them using the instructions in their respective documentation.
 
 ```sh
 mkdir build
