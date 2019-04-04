@@ -31,7 +31,7 @@ DRY_RUN=$6
 
 CONFIG_DIR="/home/ccanel/src/filterforward-doc/papers/ff/scripts/e2e/configs/saf_config"
 OUT_DIR="~/out/nnbench"
-CAMERA="FILE_JH"
+CAMERA="FILE"
 LOG_LEVEL=0
 NUMS_COPIES=( 1 2 3 4 5 6 7 8 9 10 15 20 25 30 35 40 45 50 55 60 )
 
