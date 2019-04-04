@@ -28,7 +28,7 @@
 #include <boost/program_options.hpp>
 #include "saf.h"
 
-#include "utils/nnbench.h"
+#include "nnbench/nnbench.h"
 
 namespace po = boost::program_options;
 

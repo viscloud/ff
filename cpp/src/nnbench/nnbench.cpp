@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "utils/nnbench.h"
+#include "nnbench/nnbench.h"
 
 constexpr auto NAME = "NnBench";
 constexpr auto SINK_NAME = "output";

@@ -37,20 +37,9 @@ include_directories(${CURL_INCLUDE_DIR})
 target_link_libraries(filterforward ${CURL_LIBRARIES})
 build(filterforward)
 
-# utils
-
 # nnbench
 add_executable(nnbench
-  utils/nnbench_app.cpp
-  utils/nnbench.h
-  utils/nnbench.cpp)
+  nnbench/nnbench_app.cpp
+  nnbench/nnbench.h
+  nnbench/nnbench.cpp)
 build(nnbench)
-
-# frame_selector
-add_executable(frame_selector
-  utils/frame_selector_app.cpp
-  utils/frame_selector.h
-  utils/frame_selector.cpp
-  utils/opencv_mp4_writer.h
-  utils/opencv_mp4_writer.cpp)
-build(frame_selector)
