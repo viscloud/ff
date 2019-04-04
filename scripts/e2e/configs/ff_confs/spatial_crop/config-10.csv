@@ -1,0 +1,2 @@
+# num queries, layer, xmin, ymin, xmax, ymax, MC path, MC input layer, MC output layer, MC output dim, threshold, k, KD max buflen, KD timeout
+10,conv4_2/sep,0,0,0,0,/home/ccanel/src/filterforward-doc/papers/ff/scripts/e2e/configs/models/spatial_crop.pb,inputs,probabilities,2,0.5,5,120,10000

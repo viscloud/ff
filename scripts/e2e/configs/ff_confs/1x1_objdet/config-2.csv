@@ -1,0 +1,2 @@
+# num queries, layer, xmin, ymin, xmax, ymax, MC path, MC input layer, MC output layer, MC layer dim, threshold, k, KD max buflen, KD timeout
+2,conv5_6/sep,0,0,64,27,/home/ccanel/src/filterforward-doc/papers/ff/scripts/e2e/configs/models/1x1_objdet.pb,inputs,probabilities,1,0.5,5,120,10000

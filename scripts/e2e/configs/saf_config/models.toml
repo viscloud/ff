@@ -1,0 +1,42 @@
+
+# Copyright 2016 The FilterForward Authors. All Rights Reserved.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+[mean_image]
+BLUE  = 103.94
+GREEN = 116.78
+RED   = 123.68
+
+[[model]]
+name = "mobilenet"
+type = "caffe"
+# https://raw.githubusercontent.com/cdwat/MobileNet-Caffe/master/mobilenet_deploy.prototxt
+# Add to bottom of 'mobilenet_deploy.prototxt' file:
+#    layer { name: "prob" type: "Softmax" bottom: "fc7" top: "prob" }
+desc_path = "/home/ccanel/src/filterforward-doc/papers/ff/scripts/e2e/configs/models/mobilenet.prototxt"
+params_path = "/home/ccanel/src/filterforward-doc/papers/ff/scripts/e2e/configs/models/mobilenet.caffemodel"
+input_width = 1920
+input_height = 1080
+input_scale = 0.017
+label_file = "no"
+default_output_layer = "prob"
+
+[[model]]
+name = "dc"
+type = "tensorflow"
+desc_path = "/home/ccanel/src/filterforward-doc/papers/ff/scripts/e2e/configs/models/dc.pb"
+input_width = 1920
+input_height = 1080
+default_input_layer = "conv2d_1_input"
+default_output_layer = "probabilities/Sigmoid"
