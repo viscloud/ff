@@ -1,9 +1,6 @@
 [submodule "cpp/third_party/saf"]
 	path = cpp/third_party/saf
 	url = git@github.com:viscloud/saf
-[submodule "python/papers/ff/scripts/accuracy_bandwidth/setup/keras_to_tensorflow"]
-	path = python/papers/ff/scripts/accuracy_bandwidth/setup/keras_to_tensorflow
-	url = git@github.com:amir-abdi/keras_to_tensorflow.git
 [submodule "scripts/accuracy_bandwidth/labeler"]
 	path = scripts/accuracy_bandwidth/labeler
 	url = git@github.com:viscloud/labeler
