@@ -1,4 +1,0 @@
-keras
-tensorflow
-absl-py
-pathlib 
