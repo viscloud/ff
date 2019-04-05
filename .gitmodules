@@ -4,9 +4,6 @@
 [submodule "python/papers/ff/scripts/accuracy_bandwidth/setup/keras_to_tensorflow"]
 	path = python/papers/ff/scripts/accuracy_bandwidth/setup/keras_to_tensorflow
 	url = git@github.com:amir-abdi/keras_to_tensorflow.git
-[submodule "python/papers/ff/scripts/accuracy_bandwidth/setup/networks_exp_utils"]
-	path = python/papers/ff/scripts/accuracy_bandwidth/setup/networks_exp_utils
-	url = git@github.com:giulio-zhou/networks_exp_utils
 [submodule "scripts/accuracy_bandwidth/labeler"]
 	path = scripts/accuracy_bandwidth/labeler
 	url = git@github.com:viscloud/labeler
