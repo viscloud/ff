@@ -6,7 +6,7 @@ FilterForward requires [Caffe](https://github.com/BVLC/caffe) (we use [Intel Caf
 ```sh
 mkdir build
 cd build
-cmake -DCAFFE_HOME=<path to Caffe> -DTENSORFLOW_HOME=<path to TensorFlow> ..
+cmake -DCAFFE_HOME=<path to Caffe>/distribute -DTENSORFLOW_HOME=<path to TensorFlow> ..
 make
 ```
 The resulting binaries will be located in `build/src`. `filterforward` is, as the name suggests, the FilterForward system. `nnbench` is used for benchmarking straightforward classifier architectures that only consist of one level of network, e.g., multiple copies of a discrete classifier or MobileNet.
