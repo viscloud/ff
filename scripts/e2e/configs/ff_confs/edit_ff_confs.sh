@@ -79,5 +79,5 @@ FILES=(./1x1_objdet/config-1.csv \
 
 for FILE in ${FILES[@]}; do
     echo "Editing: $FILE"
-    sed -i 's+/home/ccanel/src/filterforward-doc/papers/ff+~/src/filterforward+g' $FILE
+    sed -i 's+foo+bar+g' $FILE
 done
