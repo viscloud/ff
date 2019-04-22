@@ -21,9 +21,6 @@ RED   = 123.68
 [[model]]
 name = "mobilenet"
 type = "caffe"
-# https://raw.githubusercontent.com/cdwat/MobileNet-Caffe/master/mobilenet_deploy.prototxt
-# Add to bottom of 'mobilenet_deploy.prototxt' file:
-#    layer { name: "prob" type: "Softmax" bottom: "fc7" top: "prob" }
 desc_path = "~/src/filterforward/scripts/e2e/configs/models/mobilenet.prototxt"
 params_path = "~/src/filterforward/scripts/e2e/configs/models/mobilenet.caffemodel"
 input_width = 1920
