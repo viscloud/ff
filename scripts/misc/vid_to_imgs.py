@@ -46,8 +46,8 @@ def test_decode_time():
         print(sum(v))
         print("{}: {}".format(image, elapsed_time / num_trials))
 
-    time_img("/home/ccanel/scratch/out/output_small.png")
-    time_img("/home/ccanel/scratch/out/output_large.png")
+    time_img("~/scratch/out/output_small.png")
+    time_img("~/scratch/out/output_large.png")
 
 
 def mv_img(img_number, out_dirpath, formt, num_per_dir):

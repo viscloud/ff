@@ -24,8 +24,8 @@ type = "caffe"
 # https://raw.githubusercontent.com/cdwat/MobileNet-Caffe/master/mobilenet_deploy.prototxt
 # Add to bottom of 'mobilenet_deploy.prototxt' file:
 #    layer { name: "prob" type: "Softmax" bottom: "fc7" top: "prob" }
-desc_path = "/home/ccanel/src/filterforward-doc/papers/ff/scripts/e2e/configs/models/mobilenet.prototxt"
-params_path = "/home/ccanel/src/filterforward-doc/papers/ff/scripts/e2e/configs/models/mobilenet.caffemodel"
+desc_path = "~/src/filterforward/scripts/e2e/configs/models/mobilenet.prototxt"
+params_path = "~/src/filterforward/scripts/e2e/configs/models/mobilenet.caffemodel"
 input_width = 1920
 input_height = 1080
 input_scale = 0.017
@@ -35,7 +35,7 @@ default_output_layer = "prob"
 [[model]]
 name = "dc"
 type = "tensorflow"
-desc_path = "/home/ccanel/src/filterforward-doc/papers/ff/scripts/e2e/configs/models/dc.pb"
+desc_path = "~/src/filterforward/scripts/e2e/configs/models/dc.pb"
 input_width = 1920
 input_height = 1080
 default_input_layer = "conv2d_1_input"

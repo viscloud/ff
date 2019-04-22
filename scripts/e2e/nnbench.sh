@@ -29,7 +29,7 @@ EXP_LIMIT=$4
 NUM_FRAMES=$5
 DRY_RUN=$6
 
-CONFIG_DIR="/home/ccanel/src/filterforward-doc/papers/ff/scripts/e2e/configs/saf_config"
+CONFIG_DIR="~/src/filterforward-doc/papers/ff/scripts/e2e/configs/saf_config"
 OUT_DIR="~/out/nnbench"
 CAMERA="FILE"
 LOG_LEVEL=0
