@@ -22,9 +22,7 @@ labels = h5py.File(labels_filepath, 'r')['labels'][:]
 In some cases, the number of labels is less than the total number of frames in a video. In those cases, discard extra frames from the end of the video.
 
 ## Code
-***Disclaimer 1: This project is no longer active. We are providing this code "as-is", with no support.***
-
-***Disclaimer 2: We are still in the process of preparing this repository. The code may change.***
+***Disclaimer: This project is no longer active. We are providing this code "as-is", with no support.***
 
 FilterForward consists of two codebases (see their `README` files for more info):
 1. [`cpp`](https://github.com/viscloud/filterforward/tree/master/cpp): A functional C++ implementation on top of the [SAF video analytics framework](https://github.com/viscloud/saf). We use this for our throughput experiments.
