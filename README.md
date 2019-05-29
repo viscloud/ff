@@ -6,7 +6,7 @@ As video camera deployments continue to grow, the need to process large volumes 
 
 ## Media
 
-[Published Paper](http://www.sysml.cc/doc/2019/197.pdf)  |  [Extended Paper](https://github.com/viscloud/filterforward/blob/master/media/ff_extended.pdf)  |  [Poster](https://github.com/viscloud/filterforward/blob/master/media/ff_sysml2019_poster.pdf)  |  [Talk at SysML 2019](https://www.youtube.com/watch?v=1NsVb8NaUMM)  |  SysML 2019 Slides  ([PDF](https://github.com/viscloud/filterforward/blob/master/media/ff_sysml2019_presentation.pdf), [PPTX](https://github.com/viscloud/filterforward/blob/master/media/ff_sysml2019_presentation.pptx))
+[Published Paper](https://github.com/viscloud/ff/blob/master/media/ff_sysml2019_paper.pdf) ([on SysML site](http://www.sysml.cc/doc/2019/197.pdf))  |  [Extended Paper](https://github.com/viscloud/filterforward/blob/master/media/ff_extended.pdf) (read this one)  |  [Poster](https://github.com/viscloud/filterforward/blob/master/media/ff_sysml2019_poster.pdf)  |  [Talk at SysML 2019](https://www.youtube.com/watch?v=1NsVb8NaUMM)  |  SysML 2019 Slides  ([PDF](https://github.com/viscloud/filterforward/blob/master/media/ff_sysml2019_presentation.pdf), [PPTX](https://github.com/viscloud/filterforward/blob/master/media/ff_sysml2019_presentation.pptx))
 
 ## Datasets
 Follow [this link](https://drive.google.com/file/d/1TF6CsbFwhMo2Ry3LHQkgJPzJdN0ZS1XC/view?usp=sharing) to download the *Jackson* and *Roadway* datasets used in the above paper. The *Jackson* dataset is annotated with labels for the *Pedestrian* task and the *Roadway* dataset is annotated with labels for the *People with red* task. Each dataset is composed of a training video and a testing video. See the above paper for details about the datasets.
